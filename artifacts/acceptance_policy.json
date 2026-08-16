@@ -1,0 +1,18 @@
+{
+  "target_acceptance_rate": 0.65,
+  "temperature": 0.12,
+  "random_seed": 42,
+  "features": {
+    "EXT_SOURCE_1": -1.0,
+    "EXT_SOURCE_2": -1.0,
+    "EXT_SOURCE_3": -1.0,
+    "APP_CREDIT_INCOME_RATIO": 1.0,
+    "APP_ANNUITY_INCOME_RATIO": 1.0,
+    "BUREAU_BALANCE_DELINQUENCY_RATE_MAX": 1.0,
+    "BUREAU_DAYS_OVERDUE_MAX": 1.0,
+    "PREV_REFUSED_RATE": 1.0,
+    "INST_LATE_RATE": 1.0
+  },
+  "intercept": 0.6923731403596494,
+  "target_used": false
+}

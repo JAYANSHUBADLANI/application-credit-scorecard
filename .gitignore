@@ -1,0 +1,36 @@
+# Raw and derived data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs. Tracked, not ignored: the README promises models,
+# tables, figures and the run manifest are available under these folders so
+# the analysis is reviewable without re-running the pipeline.
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Notebooks and editors
+.ipynb_checkpoints/
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+
+reports/figures/.matplotlib/

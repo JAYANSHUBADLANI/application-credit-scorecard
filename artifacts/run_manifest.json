@@ -1,0 +1,77 @@
+{
+  "completed_at": "2026-08-11T09:33:54.426669+00:00",
+  "python": "3.12.13",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "software": {
+    "joblib": "1.4.2",
+    "matplotlib": "3.8.4",
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "pyarrow": "21.0.0",
+    "PyYAML": "6.0.1",
+    "scikit-learn": "1.4.2",
+    "scipy": "1.13.1",
+    "seaborn": "0.13.2"
+  },
+  "raw_sources": [
+    {
+      "file": "application_train.csv",
+      "configured_path": "data/raw/application_train.csv",
+      "resolved_path": "home-credit-default-risk/application_train.csv",
+      "bytes": 166133370,
+      "modified_at": "2019-12-10T21:29:00+00:00"
+    },
+    {
+      "file": "application_test.csv",
+      "configured_path": "data/raw/application_test.csv",
+      "resolved_path": "home-credit-default-risk/application_test.csv",
+      "bytes": 26567651,
+      "modified_at": "2019-12-10T21:28:58+00:00"
+    },
+    {
+      "file": "bureau.csv",
+      "configured_path": "data/raw/bureau.csv",
+      "resolved_path": "home-credit-default-risk/bureau.csv",
+      "bytes": 170016717,
+      "modified_at": "2019-12-10T21:29:14+00:00"
+    },
+    {
+      "file": "bureau_balance.csv",
+      "configured_path": "data/raw/bureau_balance.csv",
+      "resolved_path": "home-credit-default-risk/bureau_balance.csv",
+      "bytes": 375592889,
+      "modified_at": "2019-12-10T21:29:28+00:00"
+    },
+    {
+      "file": "previous_application.csv",
+      "configured_path": "data/raw/previous_application.csv",
+      "resolved_path": "home-credit-default-risk/previous_application.csv",
+      "bytes": 404973293,
+      "modified_at": "2019-12-10T21:32:12+00:00"
+    },
+    {
+      "file": "installments_payments.csv",
+      "configured_path": "data/raw/installments_payments.csv",
+      "resolved_path": "home-credit-default-risk/installments_payments.csv",
+      "bytes": 723118349,
+      "modified_at": "2019-12-10T21:30:38+00:00"
+    },
+    {
+      "file": "credit_card_balance.csv",
+      "configured_path": "data/raw/credit_card_balance.csv",
+      "resolved_path": "home-credit-default-risk/credit_card_balance.csv",
+      "bytes": 424582605,
+      "modified_at": "2019-12-10T21:30:00+00:00"
+    },
+    {
+      "file": "POS_CASH_balance.csv",
+      "configured_path": "data/raw/POS_CASH_balance.csv",
+      "resolved_path": "home-credit-default-risk/POS_CASH_balance.csv",
+      "bytes": 392703158,
+      "modified_at": "2019-12-10T21:28:12+00:00"
+    }
+  ],
+  "config_snapshot": "artifacts/config_snapshot.json",
+  "split_manifest": "artifacts/split_manifest.parquet",
+  "results_summary": "artifacts/results_summary.json"
+}

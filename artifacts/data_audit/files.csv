@@ -1,0 +1,9 @@
+file,bytes,rows,columns
+application_train.csv,166133370,307511,122
+application_test.csv,26567651,48744,121
+bureau.csv,170016717,1716428,17
+bureau_balance.csv,375592889,27299925,3
+previous_application.csv,404973293,1670214,37
+installments_payments.csv,723118349,13605401,8
+credit_card_balance.csv,424582605,3840312,23
+POS_CASH_balance.csv,392703158,10001358,8

@@ -1,0 +1,13 @@
+{
+  "applicants": 307511,
+  "bad_rate": 0.08072881945686496,
+  "features": 201,
+  "key_driver_tables": [
+    "EXT_SOURCE_2",
+    "EXT_SOURCE_3",
+    "APP_CREDIT_INCOME_RATIO",
+    "BUREAU_BALANCE_DELINQUENCY_RATE_MAX",
+    "PREV_REFUSED_RATE",
+    "INST_LATE_RATE"
+  ]
+}

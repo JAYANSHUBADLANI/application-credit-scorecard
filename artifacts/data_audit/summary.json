@@ -1,0 +1,60 @@
+{
+  "files": [
+    {
+      "file": "application_train.csv",
+      "bytes": 166133370,
+      "rows": 307511,
+      "columns": 122
+    },
+    {
+      "file": "application_test.csv",
+      "bytes": 26567651,
+      "rows": 48744,
+      "columns": 121
+    },
+    {
+      "file": "bureau.csv",
+      "bytes": 170016717,
+      "rows": 1716428,
+      "columns": 17
+    },
+    {
+      "file": "bureau_balance.csv",
+      "bytes": 375592889,
+      "rows": 27299925,
+      "columns": 3
+    },
+    {
+      "file": "previous_application.csv",
+      "bytes": 404973293,
+      "rows": 1670214,
+      "columns": 37
+    },
+    {
+      "file": "installments_payments.csv",
+      "bytes": 723118349,
+      "rows": 13605401,
+      "columns": 8
+    },
+    {
+      "file": "credit_card_balance.csv",
+      "bytes": 424582605,
+      "rows": 3840312,
+      "columns": 23
+    },
+    {
+      "file": "POS_CASH_balance.csv",
+      "bytes": 392703158,
+      "rows": 10001358,
+      "columns": 8
+    }
+  ],
+  "target": {
+    "target": "TARGET",
+    "counts": {
+      "0": 282686,
+      "1": 24825
+    },
+    "bad_rate": 0.08072881945686496
+  }
+}

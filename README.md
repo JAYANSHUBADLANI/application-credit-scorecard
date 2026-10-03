@@ -178,7 +178,7 @@ data/raw/                        Kaggle CSV files, excluded from Git
 data/processed/                  Applicant matrices and lineage, excluded from Git
 artifacts/                       Models, tables, predictions, and run metadata
 reports/figures/                 Generated validation and decisioning charts
-PROGRESS.md                      Work completed and remaining handoffs
+PROGRESS.md                      Work completed, verification, and limitations
 ```
 
 ## Reproduce the project

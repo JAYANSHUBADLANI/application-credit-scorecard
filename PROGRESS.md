@@ -15,7 +15,7 @@ Last updated: 2026-08-07
 - Added CLI entry points, staged Make targets, and artifact persistence.
 - Added 17 automated tests, including a full synthetic raw-data run through reporting.
 - Confirmed all tests pass.
-- Linked the complete 2.5 GB Home Credit dataset from the Desktop without duplicating it.
+- Linked the complete 2.5 GB Home Credit dataset into `data/raw/` without duplicating it.
 - Audited every source table, including row counts, columns, null rates, and target balance.
 - Built 201 applicant-level characteristics for 307,511 labeled applicants.
 - Ran the final 17-characteristic scorecard and all validation and decisioning stages.
@@ -43,4 +43,4 @@ Last updated: 2026-08-07
 - The dataset has no genuine application timestamp, so validation is not out of time.
 - Profit values use illustrative EAD, LGD, margin, and operating-cost assumptions.
 - The parcelled model does not outperform the accepted-only or oracle scorecards on Gini.
-- Raw-data links depend on the current Desktop dataset location.
+- The raw-data links in `data/raw/` break if the source dataset folder moves.
